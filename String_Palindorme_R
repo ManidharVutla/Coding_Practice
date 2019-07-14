@@ -1,0 +1,17 @@
+class String_Palindrome_R
+{
+    public static void main(String args[])
+    {
+        String str="manidhar";
+
+        System.out.println(reverse_str(str));
+    }
+
+    String reverse_str(String str)
+    {
+        if(str=="")
+            return "";
+        
+        return str.charAt(str.length-1) + "" + reverse_str(substring(0, str.length-1);
+    }
+}
